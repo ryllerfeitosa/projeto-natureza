@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+ol, ul, li{
+    list-style: none;
+}
+body{
+    height: 100vh;
+    display: flex;
+    background-image: url(./img/simon-berger-aZjw7xI3QAA-unsplash\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+}
+
+main{
+    display: flex;
+    width: 1804px;
+    height: 978px;
+    border: 7px solid rgba(255, 255, 255, 0.255);
+    background-color: rgba(255, 255, 255, 0.141);
+    border-radius: 40px;  
+    backdrop-filter: blur(15px);
+    flex-direction: column;
+}
+
+header{
+    width: 94vw;
+    display: flex;
+    flex-direction: row;
+    padding: 30px 50px;
+    justify-content: space-between;
+}
+.espaco1{
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    color: white;
+}
+.espaco2{
+    display: flex;
+    margin: 20px;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+}
+.login{
+    width: 200px;
+    height: 50px;
+    margin: 10px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 28px;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.494);
+    border: 3px solid rgba(255, 255, 255, 0.255);
+    backdrop-filter: blur(15px);
+}
+
+.principal{
+    height: 978px;
+    padding-top: 90px;
+    padding-left: 88px;
+    gap: 100px;
+    display: flex;
+    flex-direction: column;
+}
+h1{
+    width: 670px;
+    height: 185px;
+    font-size: 96px;
+    color: white;
+}
+
+.descricao{
+    display: flex;
+    width: 864px;
+    height: 66px;
+    font-size: 26px;
+    color: white;
+}
+
+.botaoComprar{
+    width: 258px;
+    height: 78px;
+    font-size: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.568);
+    backdrop-filter: blur(15px);
+}
